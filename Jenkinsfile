@@ -18,9 +18,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'chmod +x deploy.sh'
-
-                sh './deploy.sh'
+                sh "sudo mvn spring-boot:run"
             }
         }
     }
