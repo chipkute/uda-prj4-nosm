@@ -99,7 +99,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.example.demo.SareetaApplication.java</mainClass>
+							<mainClass>com.example.demo.SareetaApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
