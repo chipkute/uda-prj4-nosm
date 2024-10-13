@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    options {
+        skipStagesAfterUnstable()
+    }
     stages {
         stage('Build') {
             steps {
@@ -18,8 +21,6 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'chmod +x deploy.sh'
-
                 sh './deploy.sh'
             }
         }
