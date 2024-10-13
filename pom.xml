@@ -97,7 +97,9 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com/example/demo/SareetaApplication.java</mainClass>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>com.example.demo.SareetaApplication.java</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
