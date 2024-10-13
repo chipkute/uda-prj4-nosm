@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SSH_KEY="/tmp/nosm-ec2-key.pem"
-chmod 400 $SSH_KEY
+
 EC2_USER="ec2-user"
 EC2_IP="ec2-18-234-94-74.compute-1.amazonaws.com"
 
