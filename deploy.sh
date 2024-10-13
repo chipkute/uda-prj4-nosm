@@ -2,7 +2,7 @@
 
 SSH_KEY="/home/ec2-user/nosm-ec2-key.pem"
 EC2_USER="ec2-user"
-EC2_IP="ec2-98-81-183-242.compute-1.amazonaws.com"
+EC2_IP="ec2-18-234-94-74.compute-1.amazonaws.com"
 
 REMOTE_DIR="/home/ec2-user"       # Thư mục trên EC2
 WAR_FILE="auth-course-0.0.1-SNAPSHOT.war"  # Tên file WAR
