@@ -5,5 +5,5 @@
     + sudo amazon-linux-extras install epel
     + sudo amazon-linux-extras install java-openjdk11
     + sudo yum install --nogpgcheck jenkins
-    + service jenkins start
+    + sudo systemctl start jenkins
     + sudo more /var/lib/jenkins/secrets/initialAdminPassword
