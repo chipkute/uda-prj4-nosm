@@ -7,3 +7,6 @@
     + sudo yum install --nogpgcheck jenkins
     + sudo systemctl start jenkins
     + sudo more /var/lib/jenkins/secrets/initialAdminPassword
+    + Install git and github plugin
+    + Gen personal access key in github and connect with jenkin
+    + Install git and maven in ec2
